@@ -6,7 +6,7 @@ WTF
 
 Art Hack Day + Sponsors buying booze and Red Bull + Big Screen Plaza access == awful things.
 
-Spam database from: http://www.dt.fee.unicamp.br/~tiago/smsspamcollection/
+Spam database from: http://www.dt.fee.unicamp.br/~tiago/smsspamcollection/.
 Use spam_to_json.rb to create a JSON collection of spam messages when spam database is updated.  You're presumably a big [boy|girl] and can presumably know how to write a script to copy a file to your webserver and time cron to your own amusement.
 
 Paul Christophe (@captdaylight) and I decided spam bots can be tamed and enjoyed.  In his case, he envisions an Arduino-powered zoo that visits you when you poo in the bathroom at 319 Scholes.  In my nightmare universe, midtown Manhattan is transformed into a spam ranch which shocks and horrifies New Yorkers with unsoliciated solicitation and Comic Sans via an extra big ass-screen. THE HORROR!

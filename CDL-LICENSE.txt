@@ -1,4 +1,4 @@
-Copyright (c) 2011 David Huerta, http://www.davidhuerta.me/
+Copyright (c) 2012 David Huerta, http://www.davidhuerta.me/
 All rights reserved.
 
 Chicken Dance License v0.1

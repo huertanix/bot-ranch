@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<!--
+    BOT RANCH!!!!111
+    http://www.davidhuerta.me/botfarm
+    copyright (c) 2012 David Huerta and Paul Christophe. Distributed under the CDL license: http://supertunaman.com/cdl/
+-->
+<head>
+  <title>~*~ BOT RANCH v9001 ~*~</title>
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+  <link rel="StyleSheet" href="default.css" type="text/css" />
+  <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+</head>
+<body>
+  <img src="pig_spider.gif" alt="THE GAME" />
+  <img src="pig_tongue.gif" alt="THE GAME" />
+  <img src="pig_wings.gif" alt="THE GAME" />
+	<img src="banner.png" alt="THE GAME" />
+  <img src="pig_pipe.gif" alt="THE GAME" />
+  <img src="pig_gentleman.gif" alt="THE GAME" />
+  <img src="pig_gir.jpeg" alt="THE GAME" height="100px" width="100px" />
+  <div id="spam">
+    omgwtfbbq
+  </div>
+  <script type="text/javascript">
+    window.spam_index = 0;
+    window.spams = ['big sale on truck nuts!!! http://www.githire.com','make big bucks printing dongs from home!! http://dongiverse.com'];
+  
+    setInterval( function() {
+      $.getJSON('spam.json', function(data) {
+        var items = [];
+      
+        jQuery.each(data, function(key, val) {
+          items.push(val);
+        });
+      
+        window.spams = items;
+      });
+    }, 2000);
+  
+    setInterval( function() {
+      if (window.spam_index < window.spams.length) {
+        $('#spam').html(window.spams[window.spam_index]);
+        window.spam_index++;
+      }
+      else {
+        window.spam_index = 0;
+      }
+    }, 14000);
+  </script>
+  
+</body>
+</html>

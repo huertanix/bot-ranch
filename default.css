@@ -1,0 +1,31 @@
+body {
+	font-family:'Comic Sans', Papyrus, 'Times New Roman';
+  background-color:#F00;
+  color:#F39;
+  background-image:url('poobrain.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align:center;
+}
+
+#spam {
+  background-color:#FF0;
+  background: rgba(255, 255, 58, 0.85);
+  height:600px;
+  width:95%;
+  border-style:outset;
+  border-width:10px;
+  font-size:70px;
+}
+
+.floating_gif_right {
+  float:right;
+  display:inline;
+}
+
+.floating_gif_left {
+  float:right;
+  display:inline;
+}
